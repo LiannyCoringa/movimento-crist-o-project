@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
           participar, entre em contato conosco.
         </p>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <Link to="/" className="nav-link active">
@@ -28,6 +28,9 @@ function NavBar() {
           </Link>
           <Link to="/images" className="nav-link active">
             <li className="nav-item">Fotos</li>
+          </Link>
+          <Link to="/contact" className="nav-link active">
+            <li className="nav-item">Contato</li>
           </Link>
         </ul>
       </div>
