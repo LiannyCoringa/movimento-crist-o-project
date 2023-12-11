@@ -1,3 +1,7 @@
+body {
+  background-color: #e3f2fd;
+}
+
 .navbar {
   background-color: #e3f2fd;
   margin-top: 15px;  
@@ -21,4 +25,29 @@ header {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+}
+
+main {
+  background-image: url(../images/Estrela.jpg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.homeTitle {
+  text-align: right;
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.homeText {
+  text-align: justify;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 50%;
 }
