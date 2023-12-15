@@ -32,6 +32,9 @@ function NavBar() {
           <Link to="/contact" className="nav-link active">
             <li className="nav-item">Contato</li>
           </Link>
+          <Link to="/auth" className="nav-link active">
+            <li className="nav-item">Login</li>
+          </Link>
         </ul>
       </div>
     </nav>
