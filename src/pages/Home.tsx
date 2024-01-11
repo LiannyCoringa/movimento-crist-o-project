@@ -1,5 +1,6 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Message from '../components/Message';
 
 function Home() {
   return (
@@ -25,6 +26,8 @@ function Home() {
           </p>
         </div>
       </main>
+      <hr />
+      <Message />
       <Footer />
     </div>
   );

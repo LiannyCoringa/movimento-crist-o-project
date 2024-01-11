@@ -12,7 +12,7 @@ function NavBar() {
             <li className="nav-item">Quem somos</li>
           </Link>
           <Link to="/message" className="nav-link active">
-            <li className="nav-item">Mensagem do dia</li>
+            <li className="nav-item">Mensagens</li>
           </Link>
           <Link to="/schedule" className="nav-link active">
             <li className="nav-item">Agenda</li>
